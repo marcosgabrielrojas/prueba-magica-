@@ -9,12 +9,23 @@ and open the template in the editor.
         <title>LOGIN usuario</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="estilo.css">
     </head>
     <body>
-        <p>Usuario</p> <input type="text" name="nombre" size="40" required="required" id="usuario" />
-        <p>Contraseña</p> <input type="password" name="contraceña" required="required"id="clave" />
-        
-        <button onclick="Usuario.entrar()"> click me</button>
-        <script src="programa.js"></script>
+        <div class="caja">
+            <p>Usuario</p> <input type="text" name="nombre" size="40" required="required" id="usuario" />
+            <p>Contraseña</p> <input type="password" name="contraceña" required="required"id="clave" />
+            <button id="entrarBtn" > click me</button>
+        </div>
+        <div class="caja">
+            <h1>Registro</h1>
+            <p>Nuevo usuario</p><input type="text" name="nombre" id="nuevoUsuario">
+            <button id="registroBoton">click me</button>
+            <button id="registroBoton2">click me 2</button>>
+        </div>
+        <div id="impresion">
+
+        </div>
+        <script type="text/javascript" src="programa.js"></script>
     </body>
 </html>
